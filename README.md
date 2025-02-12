@@ -25,7 +25,7 @@ npm install -g git+https://github.com/ludwiklejzer/log-archive.git
 log-archive /path/to/log_directory
 ```
 
-## Uninstallation
+## Uninstall
 
 ```bash
 npm uninstall -g log-archive
