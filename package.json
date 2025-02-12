@@ -1,0 +1,21 @@
+{
+  "name": "log-archive",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "log-archive": "src/index.js"
+  },
+  "main": "log-archive.js",
+  "scripts": {
+    "main": "node src/index.js"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "ludwiklejzer",
+  "license": "MIT",
+  "description": "This program compresses the specified log directory into a .tar.gz archive.",
+  "dependencies": {
+    "tar": "^7.4.3"
+  }
+}
